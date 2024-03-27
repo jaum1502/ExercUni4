@@ -7,7 +7,7 @@ public App16(){
     int homem1 = entrada.nextInt();
     System.out.println("Digite a idade do segundo homem: ");
     int homem2 = entrada.nextInt();
-    System.out.println("Digite a idade da primeiro mulher: ");
+    System.out.println("Digite a idade da primeira mulher: ");
     int mulher1 = entrada.nextInt();
     System.out.println("Digite a idade da segunda mulher: ");
     int mulher2 = entrada.nextInt();
@@ -18,6 +18,6 @@ public App16(){
     entrada.close();
 }
 public static void main(String[] args) {
-    
+    new App16();
 }
 }
