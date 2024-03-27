@@ -9,7 +9,8 @@ public class App10 {
         int zezin = entrada.nextInt();
         System.out.println("Digite a idade de Luluzinha");
         int lulu = entrada.nextInt();
-        int cacula = Math.min(Math.min(marq, lulu), zezin); // o math min escolhe o menos valor das variáveis escritas (max 2)
+        int cacula = Math.min(Math.min(marq, lulu), zezin); // o math min escolhe o menos valor das variáveis escritas
+                                                            // (max 2)
         if (cacula == marq) {
             System.out.println("O mais novo é o marquinhos");
         } else if (cacula == lulu) { // else if = e se
